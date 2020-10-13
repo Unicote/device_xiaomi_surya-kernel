@@ -23,6 +23,8 @@
 #include <linux/libc-compat.h>
 #include <linux/socket.h>
 
+typedef uint32_t in_addr_t;
+
 #if __UAPI_DEF_IN_IPPROTO
 /* Standard well-defined IP protocols.  */
 enum {
